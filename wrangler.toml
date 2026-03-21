@@ -1,0 +1,20 @@
+name = "simplecafe"
+compatibility_date = "2024-03-21"
+compatibility_flags = ["nodejs_compat"]
+
+pages_build_output_dir = "public"
+# ==========================================
+# 1. D1 DATABASE BINDING
+# ==========================================
+[[d1_databases]]
+binding = "DB"
+database_name = "simplecafe"
+database_id = "233d50f3-a370-4ec2-8c20-15f22045ae8a"
+
+# ==========================================
+# 2. KV CACHE BINDING
+# ==========================================
+[[kv_namespaces]]
+binding = "CACHE_KV"
+id = "5b3c845e326e42fea5d7bc8ee9b4634e"
+preview_id = "KV_PREVIEW_ID" # Opsional untuk testing lokal

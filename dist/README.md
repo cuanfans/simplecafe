@@ -1,0 +1,1 @@
+This folder contains the built output assets for the worker "simplecafe" generated at 2026-03-21T01:03:27.690Z.
